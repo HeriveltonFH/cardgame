@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana;
+    background-image: url(https://wallpaperaccess.com/full/2843361.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+title {
+    color: #ffffff;
+    margin: 5px 0;
+}
