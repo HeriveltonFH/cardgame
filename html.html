@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <img src="" class="" alt="">
+        <title>
+            Batalha de Cards
+        <div> Será se você escolhe o atriuto certo para ganhar? </div>
+        </title>
+        <link rel="stylesheet" href="css.css"/>
+        </head>
+        <body>
+            <script src="js.js"></script>
+            <div class="container">
+                <h1> Sorte ou destino? Enfrente seu oponente e ganhe mais rodadas na mesa de Batalha!</h1>
+                <button type="button" onclick="drawCard()" id="bttDraw"> Sortear Carta</button>
+                <form id="form">
+                <h2>Escolha seu Atributo para a Batalha</h2>
+                <div class="wrapper">
+                    <div id="scoreboard"></div>
+                    <div id="card-amount"></div>
+                    <div id="card">
+                        <div id="player-card" class="card"></div>
+                        <div id="pc-card" class="card"></div>
+                </div>
+                <button class="buttonPlay" type="button" id="btnPlay" onclick="play()" disabled="false">Jogar</button>
+                </div>
+                <div id="result"></div>
+                <button type="button" id="btnNextRound" onclick="nextRound()" disabled="true">Proxima
+                rodada</button>
+                </form>
+            </div>
+        </body>
+
+</html>
