@@ -12,7 +12,7 @@ var playerCard, pcCard;
 var cardNumber;
 var playerPoints = 0, pcPoints = 0;
 
-showCardAmount ();
+showCardAmount();
 
 function showCardAmount () {
     var divShowCardAmount = document.getElementById("card-amount");
@@ -140,7 +140,7 @@ function nextRound() {
     document.getElementById("btnNextRound").disabled = true;   
     document.getElementById("result").innerHTML = "<p class='finalResult'>Sortear outra carta</p>";
     
-    document.getElementById("cards").innerHTML = `<div id="player-card" class="card"></div> <div id="pc-card" class="card"></div>`;
+    document.getElementById("card").innerHTML = '<div id="player-card"></div> <div id="pc-card"></div>';
     
     document.getElementById("bttDraw").disabled = false;
 }
